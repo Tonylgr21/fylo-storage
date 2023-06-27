@@ -1,0 +1,37 @@
+html {
+    --bg-colour: hsl(229, 57%, 11%);
+    --bg-box-colour: hsl(228, 56%, 26%);
+}
+
+body {
+    background-image: url(assets/images/bg-desktop.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position-y: 100% ;
+    background-color: var(--bg-colour);
+    display: grid;
+    place-items: center;
+    min-height: 100vh;
+
+}
+.left-box,
+.right-box {
+    background-color: var(--bg-box-colour);
+}
+.left-box {
+    padding: 2rem 8rem 3rem 2rem;
+    border-radius: 1rem 6rem 1rem 1rem;
+}
+.icons {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    column-gap: 2rem;
+    align-items: center;
+    background-color: var(--bg-colour);
+    padding: 0.4rem;
+
+    
+}
+.icon {
+    
+}
